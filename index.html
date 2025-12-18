@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ezer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">Ezer<span>.</span></div>
+            <nav class="nav">
+                <a href="#home">Accueil</a>
+                <a href="#about">À propos</a>
+                <a href="#skills">Compétences</a>
+                <a href="#projects">Projets</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                ☰
+            </div>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Bonjour, je suis <span>Ezer Medini</span></h1>
+                <h2>Développeur web & réseau</h2>
+                <p>
+                    Passionné par le développement web, les réseaux et la modélisation UML.
+                    J’aime transformer des idées en projets concrets.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">Voir mes projets</a>
+                    <a href="#contact" class="btn secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="circle"></div>
+                <img src="https://via.placeholder.com/280" alt="Photo de profil">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Je suis un étudiant en Bussnice Computing intéressé par les réseaux,
+                        Cisco Packet Tracer, le développement web (HTML, CSS, JavaScript,php) et VB.NET.
+                        et des language de programation comme(C++,C) et dévlepemment Mobile Coome Flutter
+                    </p>
+                    <p>
+                        J’aime résoudre des problèmes, configurer des topologies réseau
+                        et créer des interfaces propres et modernes pour les projets de classe.
+                    </p>
+                </div>
+                <div class="about-info">
+                    <ul>
+                        <li><span>Nom:</span> Ezer</li>
+                        <li><span>Localisation:</span> Bizerte, Tunisie</li>
+                        <li><span>Spécialité:</span> Réseaux & Développement</li>
+                        <li><span>Langues:</span> Arabe, Français, Anglais</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Développement web</h3>
+                    <p>HTML, CSS, JavaScript,php création de mini-sites et portfolios.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Réseaux</h3>
+                    <p>Configuration VLAN, routage inter-VLAN, Cisco Packet Tracer.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Modélisation</h3>
+                    <p>UML avec StarUML: cas d’utilisation, diagrammes de classes, séquences.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Programmation</h3>
+                    <p>VB.NET et scripts pour gérer des projets académiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <p>Retrouvez le code source complet de mon portfolio et D'autre Projert ici :</p>
+        <a href="https://github.com/Ezer-Medini?tab=repositories" class="btn primary" target="_blank">
+            Accéder au dépôt GitHub
+        </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p>N’hésite pas à me contacter pour un projet, une collaboration ou une question.</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" placeholder="Ton nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse e-mail</label>
+                    <input type="email" id="email" placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Écris ton message ici..."></textarea>
+                </div>
+                <button type="submit" class="btn primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Ezer – Portfolio personnel.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
